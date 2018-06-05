@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marjorie Saavedra</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
+    <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Contact-Form-Clean.css">
+    <link rel="stylesheet" href="assets/css/Footer-Basic.css">
+    <link rel="stylesheet" href="assets/css/jquery.SplashScreen.css">
+    
+    <style>
+        .nav{
+            display: none;
+        }
+        
+       @media (min-width: 992px) {
+           .nav{
+            display: block;
+        }
+        }
+</style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-md fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Marjorie Saavedra</a>
+            
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item" role="presentation"><a class="nav-link active" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-------------------------------------------------------------------------->
+    <div>
+        <div class="container intro">
+            <div class="row">
+                <div class="col-md-4 content">
+                    <a href="illustrations.html">
+                        <div class="overlay"></div>
+                        <div class="img illustration"></div>
+                        <div class="details fadeIn-bottom"><a href="illustrations.html" class="text">ILLUSTRATIONS</a></div>
+                    </a>
+                </div>
+                <div class="col-md-4 content">
+                    <a href="Digital.html">
+                        <div class="overlay"></div>
+                        <div class="img digital"></div>
+                        <div class="details fadeIn-bottom"><a href="Digital.html" class="text">DIGITAL DESIGNS</a></div>
+                    </a>
+                </div>
+                <div class="col-md-4 content">
+                    <a href="Websites.html">
+                        <div class="overlay"></div>
+                        <div class="img website"></div>
+                        <div class="details fadeIn-bottom"><a href="Websites.html" class="text">WEBSITES</a></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------->
+    <div class="container mobile">
+        <div class="row">
+            <div class="col-12 mobile-content">
+                <a href="illustrations.html">
+                    <div class="box-mobile">
+                        <p class="text-mobile">Illustration</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 mobile-content">
+                <a href="illustrations.html">
+                    <div class="box-mobile">
+                        <p class="text-mobile">Digital Design</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 mobile-content">
+                <a href="illustrations.html">
+                    <div class="box-mobile">
+                        <p class="text-mobile">Websites</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 mobile-content">
+                <a href="about.html">
+                    <div class="box-mobile">
+                        <p class="text-mobile">About Me</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------------------------------------------->
+    <div class="footer-basic">
+        <footer>
+            <div class="social">
+                <a href="https://www.instagram.com/msaaved000/"><i class="icon ion-social-instagram"></i></a>
+                <a href="https://twitter.com/msaavedraq"><i class="icon ion-social-twitter"></i></a>
+                <a href="https://www.facebook.com/marjorie.saavedra.585"><i class="icon ion-social-facebook"></i></a>
+            </div>
+            <p class="copyright">Marjorie Saavedra © 2018</p>
+        </footer>
+    </div>
+     <!------------------------------SPLASH SCREEN-------------------------------------------->
+    <div id="splashscreen">
+        <div class="name"> MARJORIE SAAVEDRA</div>
+        <div id="progress"></div>
+        <div id="status"></div>
+    </div>
+     <!-------------------------------------------------------------------------->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/TweenMax.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.2/plugins/CSSRulePlugin.min.js'></script>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.SplashScreen.js"></script>
+     <script type="text/javascript">
+        $(document).ready(function () {
+            $.SplashScreen({
+                progressCount: true,
+                progressBar: true,
+                
+            });
+            $('#splashscreen').delay(2000).hide(0)
+        });
+    </script>
+    
+</body>
+
+</html>

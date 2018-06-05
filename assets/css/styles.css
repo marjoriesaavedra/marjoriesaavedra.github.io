@@ -1,0 +1,498 @@
+html, body {
+  height:100%;
+}
+
+body {
+  font-size:62.5%;
+  margin:0;
+  padding:0;
+  min-height:100%;
+  color:black;
+  height:100%;
+  /*-webkit-font-smoothing:antialiased;*/
+
+}
+
+
+/*-----------------------NAV BAR------------------------------- */
+.navbar.navbar-light.navbar-expand-md.fixed-top {
+  background-color:white;
+  font-family:'Open Sans';
+}
+
+.nav.navbar-nav.ml-auto {
+  font-size:2.2em;
+  color:black;
+  font-family:'Open Sans';
+}
+
+.navbar-light .navbar-brand {
+  color:#FF443B;
+  font-size:3.5em;
+  font-weight:700;
+  font-family:'Lato';
+}
+  a.navbar-brand:hover{
+    color:#ffc700!important;
+}
+
+
+
+/*-----------------------OVERLAY INTRO PAGE------------------------------- */
+.container.intro {
+  margin:0 auto;
+  width:100%;
+  padding-top:20%;
+}
+
+.container.page {
+  padding-top:13%;
+}
+
+.content .overlay {
+  background:rgba(255,68,59,0.7);
+  position:absolute;
+  height:192px;
+  width:66%;
+  left:17%;
+  opacity:0;
+  -webkit-transition:all 0.4s ease-in-out 0s;
+  -moz-transition:all 0.4s ease-in-out 0s;
+  transition:all 0.4s ease-in-out 0s;
+  max-width:100%;
+  max-height:none;
+  margin:0 auto;
+  text-align:center;
+}
+
+.content:hover .overlay {
+  opacity:1;
+}
+
+/*-----------------------OVERLAY THUMBNAILS------------------------------- */
+.content2 .overlay2 {
+  background:rgba(255,68,59,0.7);
+  position:absolute;
+  height:22rem;
+  width:100%;
+  left:0;
+  top:0;
+  bottom:0;
+  right:0;
+  opacity:0;
+  -webkit-transition:all 0.4s ease-in-out 0s;
+  -moz-transition:all 0.4s ease-in-out 0s;
+  transition:all 0.4s ease-in-out 0s;
+}
+
+.content2:hover .overlay2 {
+  opacity:1;
+}
+
+.text-muted.card-text {
+  font-size:1.3em;
+}
+
+
+/*-----------------------MOBILE MODE------------------------------- */
+.box-mobile {
+  height:10em;
+  position:relative;
+  background-color:#FF443B;
+}
+
+.box-mobile .text-mobile {
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  color:#fff;
+  font-weight:500;
+  font-size:3em;
+  letter-spacing:0.2em;
+  text-decoration:none;
+  text-align:center;
+}
+
+.mobile-content {
+  padding-bottom:1%;
+}
+
+.container.mobile {
+  padding-top:20%;
+}
+
+/*-----------------------INTRO PAGE------------------------------- */
+.img {
+  width:72%;
+  height:192px;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+  align-self:center;
+  vertical-align:middle;
+  border-style:none;
+  margin:0 auto;
+}
+
+.img.illustration {
+  background-image:url(../../assets/img/Llamas-big.jpg);
+  background-position:center;
+}
+
+.img.digital {
+  background-image:url(../../assets/img/Infographic.jpg);
+}
+
+.img.website {
+  background-image:url(../../assets/img/MBL.jpg);
+}
+
+
+.details {
+  position:absolute;
+  text-align:center;
+  padding-left:1em;
+  padding-right:1em;
+  width:92%;
+  top:50%;
+  opacity:0;
+  -webkit-transform:translate(0%, -50%);
+  -moz-transform:translate(0%, -50%);
+  transform:translate(0%, -50%);
+  -webkit-transition:all 0.3s ease-in-out 0s;
+  -moz-transition:all 0.3s ease-in-out 0s;
+  transition:all 0.3s ease-in-out 0s;
+}
+
+.content:hover .details {
+  top:50%;
+  opacity:1;
+}
+
+.details .text {
+  color:#fff;
+  font-weight:500;
+  font-size:3em;
+  letter-spacing:0.2em;
+  text-decoration:none;
+}
+
+.fadeIn-bottom {
+  top:80%;
+}
+.container.intro {
+  display:none;
+}
+
+
+/*-----------------------HEADINGS------------------------------- */
+h2 {
+  text-align:center;
+  padding:10% 0 5%;
+  color:#FF443B;
+  font-family:'Lato';
+  font-weight:bold;
+  letter-spacing:0.2em;
+}
+
+.card-body h6 {
+  color:#FF443B;
+  font-size:2em;
+}
+
+/*-----------------------IMAGES IN ILLUSTRATION------------------------------- */
+.card-img1 {
+  background:url(../../assets/img/Mockup-llama.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img2 {
+  background:url(../../assets/img/Mockup-Editorial.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img3 {
+  background:url(../../assets/img/Mockup-tatto.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img4 {
+  background:url(../../assets/img/Mockup-Portrait.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img5 {
+  background:url(../../assets/img/TarotCards.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+/*-----------------------IMAGES IN DIGITAL------------------------------- */
+
+.card-img6 {
+  background:url(../../assets/img/Cover-Flower.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img7 {
+  background:url(../../assets/img/Mockup-NewsG.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img8 {
+  background:url(../../assets/img/Mockup-infographic.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img9 {
+  background:url(../../assets/img/Mockup-judysweet.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img10 {
+  background:url(../../assets/img/Mockup-BBapp.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+/*-----------------------IMAGES IN WEBSITES------------------------------- */
+
+.card-img11 {
+  background:url(../../assets/img/Mockup-DACA.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+.card-img12 {
+  background:url(../../assets/img/Mockup-MBL.jpg) no-repeat;
+  width:100%;
+  height:22rem;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+}
+
+/*-----------------------ABOUT------------------------------- */
+
+
+.container.about {
+  padding:25% 5% 0;
+}
+.mypic {
+  background:url(../../assets/img/self-portrait.jpg) no-repeat;
+  width:100%;
+  height:450px;
+  background-size:cover;
+  background-position:center;
+  overflow-y:hidden;
+  display:inline-block;
+}
+
+#text_1 {
+  padding-top:5%;
+  display:inline-block;
+  font-size: 1.2em;
+}
+
+
+/*---------------------------*/
+
+.btn.btn-primary {
+  background:#FF443B;
+}
+
+.social {
+  color:#FF443B;
+}
+
+.text-danger {
+  color:#ffc700!important;
+}
+
+.btn .btn-primary .two:hover {
+  color:#FF443B;
+}
+
+
+/*---------------------------*/
+@media (min-width: 300px) {
+  .content {
+    padding-bottom:2%;
+  }  
+  .navbar-brand {
+  font-size:2rem !important;
+  }
+
+
+}
+/*---------------------------*/
+@media (min-width: 576px) {
+  .container.about {
+    padding-top:10%;
+    padding-bottom:0;
+  }
+  .container.mobile {
+    padding-top:15%;
+  }
+    .container.intro {
+    padding-top:15%;
+  }
+    .container.page {
+    padding-top:6%;
+  }
+    .content .overlay {
+    height:300px;
+    width:510px;
+    opacity:0;
+    max-width:100%;
+    left:2.5%;
+  }
+    .content .overlay {
+    height:300px;
+    width:510px;
+    opacity:0;
+    max-width:100%;
+    left:2.5%;
+  }
+    #text_1 {
+    padding-top:5%;
+  }
+}
+/*---------------------------*/
+@media (min-width: 768px) {
+  #text_1 {
+    padding-top:5%;
+  }
+    .container.mobile {
+    padding-top:10%;
+  }
+    .content .overlay {
+    height:300px;
+    width:88%;
+    opacity:0;
+    max-width:100%;
+    left:6%;
+  }
+     .img {
+    width:100%;
+    height:300px;
+    max-height:800px;
+  }
+    .container.page {
+    padding-top:4%;
+  }
+    .details .text {
+  font-size:2.5em;
+  }
+    
+}
+/*---------------------------*/
+
+@media (min-width: 992px) {
+  .container.about {
+    padding-top:7%;
+    padding-bottom:0;
+  }
+    .container.intro {
+    display:block;
+  }
+    .container.mobile {
+    display:none;
+  }
+    .content .overlay {
+    height:500px;
+    width:91%;
+    max-width:100%;
+    left:5%;
+  }
+    .img {
+    height:500px;
+    max-width:100%;
+  }
+    .container.page {
+    padding-top:0;
+  }
+    .container.intro {
+    padding-top:8%;
+  }
+    .details .text {
+  font-size:3em;
+  }
+    #text_1 {
+    padding-top:5%;
+  }
+  .navbar-brand {
+  font-size:2.25rem !important;
+  }
+    
+}
+/*---------------------------*/
+
+@media (min-width: 1200px) {
+  .container.about {
+    padding-top:6%;
+  }
+    .content .overlay {
+    height:800px;
+    width:92%;
+    left:4%;
+  }
+    .img {
+    width:100%;
+    height:800px;
+  }
+    .container.intro {
+    padding-top:7%;
+  }
+    #text_1 {
+    padding-top:3%;
+  }
+}
+/*---------------------------*/
+
+
+
+
